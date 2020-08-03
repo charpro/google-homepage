@@ -20,7 +20,20 @@ MACHINE AND PUSH ON GITHUB
 
  $ touch README.md 
 
+#LOAD OR ADD EVERYTHING FROM PROJECT FOLDER ON LOCAL TO GIGHUB.COM
+ $ git add . 
+ $ git commit -m " your message " 
+
 #RUN COMMAND TO PUSH THE LOCAL REPO TO GIGHUB
 
  $ git push origin master
 
+#CHEDK THE STATUS AND LOG HISTORY 
+
+ $ git status
+ $ git log
+ 
+#END OF THE PROJECT INSTRUCTION 
+
+
+ 
