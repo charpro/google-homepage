@@ -1,0 +1,43 @@
+
+
+/* Main Section */
+
+.header {
+    text-align:center;
+    display: flexbox;
+    padding-top:150px;
+}
+
+.header .logo-icon  img {
+    width: 200px;
+    display:absolute;
+    padding-bottom: 25px;
+}
+
+.header .input-field {
+    border:1px solid #ccc;
+    padding : 9px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.header .group-button {
+    position:relative;
+    padding:25px;
+}
+
+.header .group-button .btn-search, .btn-feeling {
+     padding:5px;
+}
+
+/* Footer section */
+
+.footer {
+    position: fixed;
+    bottom:0;
+    margin-bottom:0;
+    background-color: #ccc;
+    width: 100%;
+}
+
+
