@@ -5,59 +5,64 @@
        <meta charset="UTF-8">
        <title>Google Home Page</title>
        <link href="styles.css" rel="stylesheet">
+       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+         rel="stylesheet">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+   
    </head> 
 
    <body>
 
-       <div class="header">
-            <div class="top-nav">
-                <nav  class="nav">
-                    <a href="#" >Gmail</a>
-                    <a href="#" >Images</a>
-                    <a href="#" >Tabs</a>
-                    <a href="#" ><img src=""/></a>
+        <div class="header">
+            <nav class="nav">
+                <a class="nav-link active" href="#">Gmail</a>
+                <a class="nav-link" href="#">Images</a>
+                <a class="nav-link" href="#">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a class="nav-link" href="#">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+            </nav>
+        </div>
+
+
+
+        <main class="main-body">
+            
+            <div class="wrap">
+                    <div class="logo">
+                        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png " alt="Google Logo" >
+                    </div>
+                    <div class="search">
+                        <form action="" method="POST" class="searchform">
+                            <input type="text"  class="input"  />
+                        </form>
+                    </div>
+                    <div class="buttons">
+                        <input class="btn btn-search" type="submit" value="Google Search" />
+                        <input class="btn btn-feeling" type="submit" value="I'm Feeling Lucky" />
+                    </div>
+            </div>
+
+        </main>
+
+
+        <div class="footer">
+            <div class="top">
+                <p>South Africa</p>
+            </div>
+            <div class="bottom">
+                <nav class="left">
+                    <a href="" >Advertising</a>
+                    <a href="" >Business</a>
+                    <a href="" >About</a>
+                    <a href="" >How Search works</a>
                 </nav>
             </div>
-       </div>
 
-       <main class="header">
-        <div class="logo-icon">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Icon">
         </div>
-        <div class="search-input">
-            <form>
-                <input type="text" class="input-field">
-            </form>
-        </div>
-        <div class="group-button">
-            <button class="btn btn-search" type="submit">Google Search</button>
-            <button class="btn btn-feeling" type="submit">I'm Feeling Lucky</button>
-        </div>
-    </main>
 
-
-    <div class="footer">
-
-        <div class="top-footer">
-            <p>South Africa</p>
-        </div>
-        <div class="bottom-footer">
-     
-             <nav class="left-bottom-nav">
-                 <a href="#" >Advesting</a>
-                 <a href="#" >Business</a>
-                 <a href="#" >About</a>
-                 <a href="#">How Search Works</a>
-             </nav>
-     
-             <nav class="right-bottom-nav">
-                 <a href="#" >Privacy</a>
-                 <a href="#" >Terms</a>
-                 <a href="#" >Setting</a>
-             </nav>
-      
-        </div>
-     </div>
 
 
    </body>

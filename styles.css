@@ -1,24 +1,122 @@
-body {
-    margin:0;
-    padding:0;
+* {
+    padding: 0;
+    margin: 0;
 }
+
+html, body {
+    height: 100%;
+}
+
+
+
+/* Header Section */
 
 .header {
-    padding:15px;
+    padding:10px;
     top:0;
-    margin: 0;
-    border:1px solid red;
+    position: sticky;
+    text-align: right;
 }
 
-.top-nav {
-
-}
-
-.nav a {
-    font-size: 12px;
-    color:#333;
+.header .nav a {
     text-decoration: none;
-    right: 0;
-    margin-right: 15px;
+    margin: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5a5a5a;
+    letter-spacing: 1px;
+}
 
+
+.header .nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.header .nav a .fa {
+    font-size: 18px;
+    position: relative;
+}
+
+
+
+/* Navigation Section */ 
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    height: 80%;
+}
+
+.main-body .wrap {
+    margin: auto;
+    align-items: center;
+    padding:50px 100px;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+
+.logo img {
+    padding:10px;
+    width: 45%;
+}
+
+.searchform {
+    padding: 5px 15px;
+    width: 450px;
+    display: flex;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+
+}
+
+input[type=text]:focus {
+    outline: none;
+    box-shadow: 0 0 10px 0 #aaa;
+
+}
+
+
+.wrap .buttons {
+    text-align: center;
+    margin: 15px;
+}
+
+input[type=submit]{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 0em;
+    color: #5f6368;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #aaa;
+}
+
+
+/*  Footer Section */ 
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e4e4e4;
+    font-family: Arial, Helvetica, sans-serif;
 }
