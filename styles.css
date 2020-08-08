@@ -46,13 +46,14 @@ html, body {
     justify-content: center;
     align-content: center;
     margin: 0 auto;
-    height: 80%;
+    width: 100%;
+
 }
 
 .main-body .wrap {
-    margin: auto;
+    padding : 50px 100px;
+    margin-top: 50px;
     align-items: center;
-    padding:50px 100px;
 }
 
 .logo {
@@ -60,16 +61,19 @@ html, body {
     text-align: center;
 }
 
-
 .logo img {
     padding:10px;
-    width: 45%;
+    width: 40%;
+}
+
+.search {
+    width:100%;
+    display: flex;
 }
 
 .searchform {
     padding: 5px 15px;
-    width: 450px;
-    display: flex;
+    width:100%;
 }
 
 input[type=text] {
@@ -110,13 +114,69 @@ input[type=submit]:hover {
 }
 
 
+.wrap .Option {
+    width: 100%;
+}
+
+.wrap .Option ul {
+    display:flex;
+    margin: 2px;
+}
+
+.wrap .Option ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  Footer Section */ 
 
 .footer {
     position: fixed;
     bottom: 0;
-    padding: 15px;
     width: 100%;
     background-color: #e4e4e4;
     font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #e4e4e4;
 }
+
+.footer .top {
+    padding: 10px 25px;
+    color: #5f6368;
+}
+
+.bottom {
+    display: flex;
+    padding: 10px 25px;
+    color: #5f6368;
+    border-top: 1px solid #aaa;
+}
+
+
+.footer .bottom .nav-left a, .nav-right a {
+    font-size: 12px;
+    text-decoration: none;
+    margin: 10px;
+    color: #5f6368;
+}
+
+.footer .bottom .nav-left  {
+    width: 100%;
+  }
+
+.footer .bottom .nav-right  {
+  width: 100%;
+  text-align: right;
+}
+
